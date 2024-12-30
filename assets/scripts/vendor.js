@@ -1,0 +1,13 @@
+const header = document.querySelector('header');
+const movieBtn = header.children[1];
+const addModal = document.getElementById('add-modal');
+const title = document.getElementById('title');
+const imageUrl = document.getElementById('image-url');
+const rating = document.getElementById('rating');
+const addBtn = document.querySelector('.btn--success');
+const cancelBtn = document.querySelector('.btn--passive');
+const movieList = document.getElementById('movie-list');
+const backDrop = document.getElementById('backdrop');
+const section = document.getElementById('entry-text');
+const deleteModal = document.querySelector('#delete-modal');
+const deleteModalNoBtn = document.getElementsByClassName('btn btn--passive')[1];
