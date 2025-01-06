@@ -120,6 +120,7 @@ const addMovieHandler = () => {
 const backDropClickHandler = () => {
   closeMovieModal();
   closeDeleteModal();
+  toggleBackDrop();
 };
 
 
